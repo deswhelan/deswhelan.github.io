@@ -1,4 +1,9 @@
 body {
-    background-color: green;
+    background-color: #99E1D9;
     font-family: Aleo;
+    color: #32292F;
+}
+
+div {
+    background-color: #F0F7F4;
 }
