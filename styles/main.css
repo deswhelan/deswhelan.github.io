@@ -33,4 +33,30 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     margin: 0.2em 0.2em 0em 0.2em;
+    background-color: #99E1D9;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+
+}
+
+nav ul li a:hover {
+    background-color: peru;
+}
+
+nav ul li ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li ul li {
+    display: none;
+    text-align: left;
+}
+
+ul li:hover ul li {
+    display: block;
 }
