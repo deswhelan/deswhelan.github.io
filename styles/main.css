@@ -6,6 +6,12 @@ body {
 
 div {
     background-color: #F0F7F4;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #32292F;
+    box-shadow: 0 5px 5px #705D56;
+    margin: 25px;
 }
 
 div h2 {
@@ -14,9 +20,7 @@ div h2 {
 }
 
 .banner {
-    padding: 10px 10px 0px 10px;
-    border-style: solid;
-    border-width: 5px;
+    padding-bottom: 0px;
     border-color: #32292F;
     box-shadow: 0 5px 5px #705D56;
 }
