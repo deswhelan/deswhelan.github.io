@@ -14,7 +14,7 @@ div {
     margin: 25px;
 }
 
-div h2 {
+div.banner h2 {
     float: left;
     margin-top: 0;
 }
