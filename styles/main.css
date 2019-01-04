@@ -19,14 +19,20 @@ div {
     border-color: #32292F;
 }
 
-.seanfhocail {
+.handwriting {
     font-family: Lobster;
+    font-size: 1.25em;
 }
 
 #about-me-profiler {
     height: 200px;
     border-radius: 50%;
     float: right;
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
 }
 
 div.banner h2 {
