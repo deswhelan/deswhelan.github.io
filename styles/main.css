@@ -1,5 +1,5 @@
 body {
-    background-color: #99E1D9;
+    background: linear-gradient(90deg, #70ABAF, #99E1D9, #F0F7F4);
     font-family: Aleo;
     color: #32292F;
 }
@@ -14,14 +14,24 @@ div {
     margin: 25px;
 }
 
-div.banner h2 {
-    float: left;
-    margin-top: 0;
-}
-
 .banner {
     padding-bottom: 0px;
     border-color: #32292F;
+}
+
+.seanfhocail {
+    font-family: Lobster;
+}
+
+#about-me-profiler {
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+}
+
+div.banner h2 {
+    float: left;
+    margin-top: 0;
 }
 
 div.banner a img {
@@ -55,7 +65,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     display: block;
-
+    color: #32292F;
 }
 
 nav ul li:hover {
@@ -80,11 +90,10 @@ ul li:hover ul {
     position: absolute;
     background-color: #32292F;
     box-shadow: 0 5px 5px #705D56;
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 
 ul li:hover ul li {
     display: block;
-    
 }
