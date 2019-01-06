@@ -21,7 +21,6 @@ h4 {
 
 .banner {
     padding-bottom: 0px;
-    border-color: #32292F;
 }
 
 .handwriting {
@@ -46,10 +45,25 @@ div.banner h2 {
 }
 
 div.banner a img {
-    height: 50px;
+    width: 50px;
     float: right;
     border-style: hidden;
     border-radius: 50%;
+}
+
+.tech-blog-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#mbp-pic {
+    width: 250px;
+}
+
+#inspect-pic {
+    width: 300px;
 }
 
 nav {
@@ -77,6 +91,11 @@ nav ul li a {
     text-decoration: none;
     display: block;
     color: #32292F;
+}
+
+nav ul li a span {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 nav ul li:hover {
