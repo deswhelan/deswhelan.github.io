@@ -73,7 +73,7 @@
         </ul>
         <p>I recently watched a nature documentary that followed the trials and tribulations of an alpha chimp called David, and how he dealt with threats to his leadership of his social group. I was impressed by David’s EQ in one particular scenario.</p>
         <p>Following a vicious beating from rival, outsider chimps in an attempted coup, David was left for dead when the group moved on to a new area in search of water.
-          After resting and tending to his wounds, David found the group and began to do something he had not done before – he began grooming the other males in the group. He formed closer bonds with them in a personal, social way. The next time the challengers to his throne arrived, these new emotional bonds drove the other males in the group to physically protect him which they had not done previously. </p>
+        After resting and tending to his wounds, David found the group and began to do something he had not done before – he began grooming the other males in the group. He formed closer bonds with them in a personal, social way. The next time the challengers to his throne arrived, these new emotional bonds drove the other males in the group to physically protect him which they had not done previously. </p>
         <p>David retained his leadership status not through a rational, IQ driven behaviour (eg using a new weapon/tool to fend off his attackers, like a sharpened stick.) Rather, he used EQ to strengthen the social bonds within his circle, leading to a beneficial outcome and a more stable social hierarchy for all. </p>
         <h3>How is it different to IQ?</h3>
         <p>The difference between EQ and IQ can be described simply as “street smarts” vs. “book smarts” respectively. It could even be thought of as social skills vs. academic skills.</p>
@@ -88,6 +88,54 @@
         <p>This skillset can be important in your life as it can enable improved relationships in your personal and professional life. You can look forward with confidence to becoming a happier and more successful person each year.</p>
       </div>
       <div id="technical-blog">
+        <h2>Technical Blog</h2>
+        <h3>An analogy to describe the differences between HTML and CSS</h3>
+        <p>I like to think of HTML as the sheet music of a song, and CSS as a particular performance or interpretation of that song. </p>
+        <p>The most covered song ever is "Yesterday" by the Beatles. You can still recognise (most!) of the cover versions of the song because the core "information" remains consistent - same lyrics, same melody.  
+        </p>
+        <p>However, the "style" of each interpretation can vary wildly. Extra instruments, different voices and new tempos all change the "feel" of the same basic information. Think of each new cover of "Yesterday" as a new main.css style sheet being linked to the index.html of the original notes and lyrics. </p>
+        <h3>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h3>
+        <p>We can "control" the "flow" of how a computer program works - in other words we can determine the order in which specific things happen. One common way of doing this efficiently using a computer is by using a "loop". A loop is a sequence of instructions that is continually repeated until a certain condition is reached</p>
+        <p>Let's take brushing your teeth as an example of a simple loop, and assume you want to make sure each tooth is brushed twenty times.</p>
+        <p>We'll start by imagining your teeth are in six distinct areas of your mouth;</p>
+        <ol>
+          <li>left side top</li>
+          <li>left side bottom</li>
+          <li>front top</li>
+          <li>front bottom</li>
+          <li>right side top</li>
+          <li>right side bottom</li>
+        </ol>
+        <p>We now want to brush each area twenty times</p>
+        <p>Let's now break that down even further. Let's set a counter to zero, and start with the simple instruction to brush ONE area ONCE.</p>
+        <p>Let's pick "left side top". After we have brushed this area once, let's add one to the counter. If we repeat this step until the counter reaches twenty, then we have brushed that area exactly as many times as we wanted to. We are "looping" the specific task of brushing once by repeating it until our counter reaches the desired number!</p>
+        <p>Then we repeat this "loop" for the next area. By being clever with loops, we have now turned one simple instruciton of "brush one area once" into an entire clean mouth!! The pseudo-code for this task might look something like this;</p>
+        <img class="tech-blog-images" src="../images/loop_pseudo.png">
+        <h3>Describe what the DOM is and an example of how you might interact with it.</h3>
+        <p>DOM stands for Document Object Model. Here is what each of those words actually means in this context;</p>
+        <ul>
+          <li><strong>Document</strong> means the webpage you are looking at</li>
+          <li><strong>Object</strong> means any HTML element in the document, e.g. &lthead&gt&lt/head&gt or &ltp&gt&lt/p&gt</li>
+          <li><strong>Model</strong> means the hierarchical structure in which these objects are laid out, much like a family tree</li>
+        </ul>
+        <p>The DOM is remarkably similar to a family tree visually, and also in some of the terms that are used to describe elements. Consider the figures below;</p>
+        <img class="tech-blog-images" src="../images/kennedy-family-tree.png">
+        <br>
+        <img class="tech-blog-images" src="../images/dom_tree.gif">
+        <p>The "li" elements in the second figurer would be described as"siblings", much like JFK and Bobby Kennedy. Similarly, the "html" element is considered the "parent" of the "body" element, just like how Ted Kennedy is Patrick Kennedy's parent in the family tree.</p>
+        <p>Another important term when it comes to the DOM is <strong>Nodes</strong>. Nodes are anything in the document that we can change; e.g. HTML elements (like &ltp&gt&lt/p&gt) OR stuff in elements (like the actual text that a &ltp&gt&lt/p&gt contains).</p>
+        <p></p>
+        <h3>Explain the difference between accessing data from arrays and objects.</h3>
+        <p>This is a challenging blog post for me to write. The concept of accessing data in arrays vs. objects was something I found challenging during this sprint. I managed to achieve this differentitaion in practice whenever I needed to, mostly through trial and error.</p>
+        <p>In other words, the differentiation between these two concepts is in my passive vocabulary (i.e. I can understand it when required) but not quite my active vocabulary (I can't yet explain it clearly or confidently to others).</p>
+        <p>I have spent some time researching and planning a way to describe it here, but have not yet reached a level I am happy with.</p>
+        <p>This is perhaps a learning in itself that I can share with you - you will be challenged while learning to program, and not everything will "click" immediately. Sometimes you will develop a deep understanding of a new concept quickly, other times you will learn just enough to be able to use it to your advantage for the task at hand. JS objects vs. arrays - we will meet again on my learning journey I am sure!</p>
+        <h3>Explain what functions are and why they are useful.</h3>
+        <p>Functions are like the "building blocks" of computer programming. Each programming language has a bunch of useful building blocks built in already. You can also design your own building blocks depending on what you want to do. These building blocks, or functions, are EXTREMELY useful and the possible applications are endless.</p>
+        <p>Take the "loop" we spoke about earlier, for brushing our teeth twenty times. Notice we used the words "for" and "while" to describe the situations where we would repeat an action; "for" each area, "while" our counter is less than twenty etc. "For" and "while" loops are two common "built in" building blocks, of programming languages JavaScript.</p>
+        <p>We then used these to build our own new "function" - let's call it "Brush your teeth". You have now written your very own building block which you can use in new exciting ways.</p>
+        <p>Next, you might write a new function called "Get ready for work" which includes "Brush your teeth" and other, new functions like "Take a shower" or "Get dressed". Just like how "Brush your teeth" used "for" and "while" as building blocks, "Get ready for work" now uses "Brush your teeth" as a building block.</p>
+        <p>Already, with this simple example, we are beginning to see how these simple building blocks can be layered upon one another to accomplish increasingly complex tasks - this is the power of functions!</p>
       </div>
   </body>
 </html>
